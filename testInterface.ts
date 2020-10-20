@@ -1,0 +1,3 @@
+interface TestInterface {
+    aProperty: string;
+  }

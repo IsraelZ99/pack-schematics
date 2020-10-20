@@ -1,0 +1,69 @@
+{
+    "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+    "schematics": {
+        "pack-schematics": {
+            "description": "A blank schematic.",
+            "factory": "./pack-schematics/index#packSchematics"
+        },
+        "create-file": {
+            "description": "A blank schematic.",
+            "factory": "./create-file/index#createFile",
+            "schema": "./create-file/schema.json",
+            "aliases": ["cf"]
+        },
+        "remove-file": {
+            "description": "A blank schematic.",
+            "factory": "./remove-file/index#removeFile",
+            "schema": "./remove-file/schema.json",
+            "aliases": ["rm"]
+        },
+        "overwrite-file": {
+            "description": "A blank schematic.",
+            "factory": "./overwrite-file/index#overwriteFile",
+            "schema": "./overwrite-file/schema.json",
+            "aliases": ["ovw"]
+        },
+        "update-recorder": {
+            "description": "A blank schematic.",
+            "factory": "./update-recorder/index#updateRecorder",
+            "schema": "./update-recorder/schema.json",
+            "aliases": ["updt"]
+        },
+        "component": {
+            "description": "A blank schematic.",
+            "factory": "./component/index#component",
+            "schema": "./component/schema.json",
+            "aliases": ["comp"]
+        },
+        "create-from-template": {
+            "description": "A blank schematic.",
+            "factory": "./create-from-template/index#createFromTemplate",
+            "schema": "./create-from-template/schema.json",
+            "aliases": ["cft"]
+        },
+        "extended-schematic": {
+            "description": "A blank schematic.",
+            "factory": "./extended-schematic/index#extendedSchematic",
+            "schema": "./extended-schematic/schema.json",
+            "aliases": ["ext"]
+        },
+        "extend-external-schematic": {
+            "description": "A blank schematic.",
+            "factory": "./extend-external-schematic/index#external",
+            "schema": "./extend-external-schematic/schema.json",
+            "aliases": ["extext"]
+        },
+        "ts-ast": {
+            "description": "A blank schematic.",
+            "factory": "./ts-ast/index#tsAst",
+            "schema": "./ts-ast/schema.json",
+            "aliases": ["tst"]
+        },
+        "tasks": {
+            "description": "A blank schematic.",
+            "factory": "./tasks/index#tasks",
+            "schema": "./tasks/schema.json",
+            "aliases": ["tsk"]
+        }
+    }
+}
